@@ -1,6 +1,6 @@
 import optuna
 import sys
-DB_FILE = 'sqlite:///../optuna_hyperparameter_optimization.db'
+DB_FILE = 'sqlite:///optuna_hyperparameter_optimization.db'
 study = optuna.load_study(study_name='xgb_optimization', storage = DB_FILE)
 best_trial = study.best_trial
 print("Best hyperparameters:")
