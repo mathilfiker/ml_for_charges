@@ -1,4 +1,4 @@
-Repository containing the charge prediction model and the scripts to reproduce the analyses shown in the paper "Machine-Learned Electrostatic Potentials for Accurate Hydration Free Energy Calculations".
+Repository containing the charge prediction model and the scripts to reproduce the analyses shown in the paper "Machine-Learned Electrostatic Potentials for Accurate Hydration Free Energy Calculations" (https://arxiv.org/abs/2512.13579).
 
 To use the model it is necessary to have a copy of the MACEOFF23-large model available here: https://github.com/ACEsuit/mace-off .
 
@@ -14,3 +14,4 @@ The repository is structured as follow:
 - **boltzmann_percentile** contains an example of MD simulations and BP charge assignment for one molecule, and the script to replicate the analysis of charge variability across conformations.
 - **charge_prediction** contains the model, an example of how to use it to predict charges, and scripts to train and validate the model on a subset of the real training data.
 - **functional_groups_analysis** contains the script to replicate the analaysis on the functional groups.
+- **chgs_so3lr** contains an alternative charge prediction model, not presented in the main text, based on SO3LR descriptors and available for commercial usage. 
