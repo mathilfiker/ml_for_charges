@@ -5,7 +5,7 @@ To use the model it is necessary to have a copy of the MACEOFF23-large model ava
 To reproducee the analyses, the following is necessary:
 - FreeSolv dataset: https://github.com/MobleyLab/FreeSolv
 - Aquamarine dataset: https://zenodo.org/records/10208010
-- MACE descriptors + ESP charges for Aquamarine molecules: *add link*
+- MACE descriptors + ESP charges for Aquamarine molecules: https://doi.org/10.5281/zenodo.17790330
 
 The exact environment as used for calculations and analysis can be retrieved from the file **environment.yml**
 
